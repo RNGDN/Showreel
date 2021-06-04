@@ -423,10 +423,9 @@ a:hover {
   height:100px;
 }
 
-
 .loader-wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -435,8 +434,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-
 }
+
 .loader {
   display: inline-block;
   width: 35px;
