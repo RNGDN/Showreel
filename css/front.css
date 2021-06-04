@@ -8,7 +8,7 @@ body {
 	height: 100vh;
 	position:relative;
   overflow-x:hidden;
-  top:-4.1em;
+  top:-4.3em;
 }
 
 #slider img{
@@ -19,7 +19,7 @@ body {
 .img1, .img2, .img3, .img4, .img5 {
 	width:100%;
 	margin:0;
-    padding:0;
+  padding:0;
     
     
 } 
@@ -27,37 +27,37 @@ body {
 .slide{
 	position:absolute;
 	width:100%;
-    height:100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+  height:100%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .slide:nth-child(1){
 	background-image: url('../images/events/02.jpg');
-    background-position: center;
+  background-position: center;
 
 }
 
 .slide:nth-child(2){
 	background-image: url('../images/events/05.jpg');
-    background-position: center;
+  background-position: center;
 
 }
 
 .slide:nth-child(3){
 	background-image: url('../images/events/03.jpg');
-    background-position: center;
-    background-size: contain;
+  background-position: center;
+  background-size: contain;
 }
 
 .slide:nth-child(4){
 	background-image: url('../images/events/04.jpg');
-    background-position: center;
+  background-position: center;
 
 }
 
 .slide:nth-child(5){
 	background-image: url('../images/events/06.jpg');
-    background-position: center;
+  background-position: center;
 
 }
 
