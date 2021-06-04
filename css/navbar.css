@@ -426,7 +426,7 @@ a:hover {
 
 .loader-wrapper {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
