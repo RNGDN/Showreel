@@ -239,6 +239,11 @@ body {
     transition-duration: 0.5s;
 }
 
+.section_future .container .row .text01{
+  padding: 2em;
+
+}
+
 @media (max-width: 768px)  {
     .section_future{
         margin-bottom: 0;
@@ -379,7 +384,7 @@ siteHead
   
   
   .home-page-limestone{
-    margin: 2em 0 2em;
+    margin-bottom: 2em;
     padding: 5em;
     overflow-x: hidden;
   }
@@ -492,3 +497,56 @@ siteHead
     .home-page-limestone .categorie-box a .logo-white img { -webkit-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
     .home-page-limestone .categorie-box a:hover .logo-white img { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); } 
   }
+
+  /* 地圖資料 */
+.top_news_title{
+  margin-top: 3em;
+}
+
+.banner-Maps{
+  display: flex;
+  height: auto;
+}
+
+.left-banner-Maps{
+  position: relative;
+  z-index: 5;
+  top: -5rem;
+  margin-left: 25%;
+  
+  
+}
+
+.left-banner-Maps .banner {
+  background-color: #000;
+  color: #fff;
+  width: 350px; 
+  text-align: left;
+  align-items: center; 
+  padding: 1.8em;
+  opacity: 0.9;
+}
+
+
+.left-banner-Maps .banner .more-banner {
+  font-weight: 700 !important;
+  font-size: 18pt;
+  
+}
+.left-banner-Maps .banner .Details-banner {
+  font-size: 10pt;
+}
+
+@media (max-width: 768px) {
+  .left-banner-Maps {
+      position: relative;
+      margin-left: 0;
+      margin-bottom: 0;
+      top: 0;
+  }
+  .left-banner-Maps .banner {
+
+      width:100vw; 
+  }
+
+}
