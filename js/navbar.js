@@ -83,6 +83,3 @@ if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && 
 })(jQuery);
 
 
-$(window).on("load",function(){
-	$(".loader-wrapper").fadeOut("slow");
-});

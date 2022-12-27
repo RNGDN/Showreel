@@ -20,7 +20,7 @@ div.logo {
 .screen .header-menu {
   margin-top: 25px;
   text-align: center;
-  font-family: 微軟正黑體;
+  font-family:'Noto Sans TC', sans-serif;
   text-transform: uppercase;
   font-size: 12pt;
   font-weight: 700 ;
@@ -293,7 +293,7 @@ a:hover {
   transition: all 250ms ease-in-out;
   z-index: 998;
   transform: translate3d(-450px, 0, 0);
-  font-family: 微軟正黑體;
+  font-family:'Noto Sans TC', sans-serif;
   box-shadow:5px 5px 10px rgba(0,0,0,0.05);
   z-index:998;
 }
@@ -430,7 +430,7 @@ a:hover {
   height:100vh;
   z-index: 996;
   overflow: auto;
-  font-family: 微軟正黑體;
+  font-family:'Noto Sans TC', sans-serif;
   display: none;
   top:0px;
 }
@@ -443,41 +443,4 @@ a:hover {
 
 .fix-height{
   height:100px;
-}
-
-.loader-wrapper {
-  width: 100vw;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.loader {
-  display: inline-block;
-  width: 85px;
-  height: 85px;
-  position: relative;
-  animation: loader 2s infinite ease;
-}
-
-
-@keyframes loader {
-  0% { transform: rotate(0deg);}
-  25% { transform: rotate(-180deg);}
-  50% { transform: rotate(-180deg);}
-  75% { transform: rotate(-360deg);}
-  100% { transform: rotate(-360deg);}
-}
-@keyframes loader-inner {
-  0% { height: 0%;}
-  25% { height: 0%;}
-  50% { height: 100%;}
-  75% { height: 100%;}
-  100% { height: 0%;}
 }

@@ -1,5 +1,5 @@
 body {
-    font-family: 微軟正黑體;
+  font-family:'Noto Sans TC', sans-serif;
     overflow-x: hidden;
 }
 
@@ -20,14 +20,14 @@ body {
     font-size: xx-large;
     font-weight: 900;
     padding-bottom: 0.5rem;
-    font-family: 微軟正黑體;
+    font-family:'Noto Sans TC', sans-serif;
     font-weight: 900;
 }
 
 .section_playground .container .row  P {
     line-height: 1.8;
     font-size: medium;
-    font-family: 微軟正黑體;
+    font-family:'Noto Sans TC', sans-serif;
     font-weight: 900;
 }
 
