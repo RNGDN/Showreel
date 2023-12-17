@@ -164,7 +164,7 @@ a:hover {
   position: absolute;
   top: 0;
   width: 1.5rem;
-  height: 3px;
+  height: 3.1px;
   background-color: #333;
   -webkit-transition: all 50ms ease;
   -moz-transition: all 50ms ease;
@@ -175,19 +175,19 @@ a:hover {
 .container-menu .menu.active div:nth-child(1),
 .container-menu .menu.active div:nth-child(3) {
   width: 0;
-  height: 3.2px;
+  height: 3.1px;
 }
 .container-menu .menu.active div:nth-child(2) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  height: 3.2px;
+  height: 3.1px;
 }
 .container-menu .menu.active div:nth-child(2):after {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   transform: rotate(90deg);
-  height: 3.2px;
+  height: 3.1px;
 }
 
 
