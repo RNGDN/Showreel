@@ -287,7 +287,7 @@ a:hover {
   position: fixed;
   top: 3em;
   left: 0;
-  width: 290px;
+  width: 450px;
   height: 100%;
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
@@ -296,13 +296,16 @@ a:hover {
   transform: translate3d(-450px, 0, 0);
   font-family:'Noto Sans TC', sans-serif;
   box-shadow:5px 5px 10px rgba(0,0,0,0.05);
-  z-index:998;
 }
 
+
+
+
 .navigation.slide-right {
-  -webkit-transform: translate3d(0);
-  -moz-transform: translate3d(0);
-  transform: translate3d(0);
+  z-index: 998;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 
 }
 
@@ -429,7 +432,7 @@ a:hover {
   position: fixed;
   width: 100vw;
   height:100vh;
-  z-index: 996;
+  z-index: 995;
   overflow: auto;
   font-family:'Noto Sans TC', sans-serif;
   display: none;
